@@ -1,8 +1,8 @@
 <script setup lang="ts">
 definePageMeta({
   title: 'About business',
-  layout: 'custom-layout'
-})
+  layout: 'custom-layout',
+});
 </script>
 
 <template>

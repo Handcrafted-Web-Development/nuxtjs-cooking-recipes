@@ -1,11 +1,10 @@
 <script setup>
 defineProps({
-  greetingMessage: String
-})
+  greetingMessage: String,
+});
 // classic function
-const showName = () => 'John Doe'
-const consoleName = () => console.log('John doe')
-
+const showName = () => 'John Doe';
+const consoleName = () => console.log('John doe');
 </script>
 
 <template>
@@ -14,6 +13,4 @@ const consoleName = () => console.log('John doe')
   <button @click="consoleName()">Console name</button>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

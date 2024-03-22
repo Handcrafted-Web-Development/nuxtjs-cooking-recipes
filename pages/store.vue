@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import {useCounterStore} from '@/store/counter'
-import {storeToRefs} from 'pinia'
+import { useCounterStore } from '@/store/counter';
+import { storeToRefs } from 'pinia';
 
-const inputVal = ref('')
-const counterStore = useCounterStore()
-const {increment} = counterStore
-const {count} = storeToRefs(counterStore)
+const inputVal = ref('');
+const counterStore = useCounterStore();
+const { increment } = counterStore;
+const { count } = storeToRefs(counterStore);
 </script>
 
 <template>

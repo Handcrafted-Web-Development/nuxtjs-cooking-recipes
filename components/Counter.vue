@@ -1,11 +1,11 @@
 <script setup>
-import {reactive} from 'vue'
+import { reactive } from 'vue';
 
-const state = reactive({count: 0})
-const msg = "Text"
+const state = reactive({ count: 0 });
+const msg = 'Text';
 
 function increment() {
-  state.count++
+  state.count++;
 }
 </script>
 <template>
@@ -13,13 +13,9 @@ function increment() {
     {{ state.count }}
   </button>
   <span v-text="msg"></span>
-  <div v-if="Math.random() > 5">
-    Now you see me
-  </div>
-  <div v-else>
-    Now you don't
-  </div>
-  <PropsComponents greeting-message="item.title"/>
+  <div v-if="Math.random() > 5">Now you see me</div>
+  <div v-else>Now you don't</div>
+  <PropsComponents greeting-message="item.title" />
 </template>
 <style>
 .image img {
