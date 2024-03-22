@@ -1,7 +1,7 @@
 <script setup>
-const route = useRoute()
+const route = useRoute();
 if (route.params.slug === 'admin') {
-  console.log('This is admin page')
+  console.log('This is admin page');
 }
 </script>
 
