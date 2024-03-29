@@ -1,11 +1,11 @@
 <script setup>
-import { reactive } from 'vue';
+import { reactive } from 'vue'
 
-const state = reactive({ count: 0 });
-const msg = 'Text';
+const state = reactive({ count: 0 })
+const msg = 'Text'
 
 function increment() {
-  state.count++;
+  state.count++
 }
 </script>
 <template>

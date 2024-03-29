@@ -1,11 +1,11 @@
 <script setup>
-const username = ref();
-const isActive = ref(true);
-const hasError = ref(false);
+const username = ref()
+const isActive = ref(true)
+const hasError = ref(false)
 
 const { pending, data } = useLazyFetch(
   'https://data.nantesmetropole.fr/api/explore/v2.1/catalog/datasets/244400404_parkings-publics-nantes-disponibilites/records?limit=20',
-);
+)
 
 // useServerSeoMeta({
 //   ogTitle: () => `${data.results?.grp_identifiant} - My Site`,

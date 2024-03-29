@@ -14,16 +14,18 @@
     "@pinia/nuxt": "^0.5.1",
     "nuxt": "^3.10.3",
     "pinia": "^2.1.7",
+    "prettier": "^3.2.5",
     "vue": "^3.4.21",
     "vue-datocms": "^5.1.2",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@nuxt/image": "^1.4.0",
     "@nuxtjs/apollo": "^5.0.0-alpha.13",
+    "@nuxtjs/tailwindcss": "^6.11.4",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.23.0",
-    "prettier": "3.2.5"
+    "eslint-plugin-vue": "^9.24.0"
   }
 }
