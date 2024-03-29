@@ -2,7 +2,7 @@
 definePageMeta({
   title: 'About business',
   layout: 'custom-layout',
-});
+})
 </script>
 
 <template>

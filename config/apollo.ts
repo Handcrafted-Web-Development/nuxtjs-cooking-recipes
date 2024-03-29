@@ -1,8 +1,8 @@
-import { graphqlEndpoint } from './cms';
+import { graphqlEndpoint } from './cms'
 
-const isProd = process.env.NETLIFY_ENV === 'production';
+const isProd = process.env.NETLIFY_ENV === 'production'
 // @ts-ignore
-import { defineApolloClient } from '@nuxtjs/apollo';
+import { defineApolloClient } from '@nuxtjs/apollo'
 
 export default defineApolloClient({
   httpEndpoint: graphqlEndpoint,
@@ -20,4 +20,4 @@ export default defineApolloClient({
   tokenStorage: 'cookie',
   authType: 'Bearer',
   authHeader: 'Authorization',
-});
+})

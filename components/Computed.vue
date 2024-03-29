@@ -1,22 +1,22 @@
 <script setup>
-import { reactive, computed } from 'vue';
+import { reactive, computed } from 'vue'
 
 const author = reactive({
   name: 'John Doe',
   books: ['Vue 2 - Advanced Guide', 'Vue 3 - Basic Guide', 'Vue 4 - The Mystery'],
-});
+})
 // a computed ref
 const publishedBooksMessage = computed(() => {
-  return author.books.length > 0 ? 'Yes' : 'No';
-});
+  return author.books.length > 0 ? 'Yes' : 'No'
+})
 
-const x = ref(0);
-const y = ref(0);
-console.log(x.value);
+const x = ref(0)
+const y = ref(0)
+console.log(x.value)
 // single ref
 watch(x, (newX) => {
-  console.log(`x is ${newX}`);
-});
+  console.log(`x is ${newX}`)
+})
 </script>
 
 <template>
